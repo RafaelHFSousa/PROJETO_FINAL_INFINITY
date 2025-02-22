@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD USER</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <main class="login">
+        <h1 style="color: white;">FAÇA O CADASTRO</h1>
+        <form id="formulario_cadastro" class="login_container" style="color: white;">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <label for="funcao">Função:</label>
+            <select name="funcao" id="funcao">
+                <option value="admin">Administrador</option>
+                <option value="villager">Funcionário</option>
+            </select>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+            <button>CADASTRAR</button>
+
+        </form>
+    </main>
+    <script src="../scripts/add_user.js"></script>
+    <script src="../base/loadFooter.js"></script>
+</body>
+</html>

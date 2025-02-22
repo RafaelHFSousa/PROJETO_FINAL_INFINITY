@@ -1,0 +1,163 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+/* ================= index.html =========== */
+.login{
+  display: flex;
+  justify-content: center;
+  /* align-items: center;   */
+  flex-direction: column;
+  margin: 200px auto;
+  width: 500px;
+  text-align: center;
+}
+.login_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    /* width: 500px; */
+    /* height: 1000px; */
+    /* margin: 100px auto; */
+    padding: 20px;
+    border: 2px solid #ccc;
+    gap: 5px;
+    & input{
+        text-align: center;
+        border-radius: 5px;
+        width: 400px;
+    }
+    & button{
+      border-radius: 50px;
+      width: 100px;
+      cursor: pointer;
+    }
+  }
+  
+ 
+  
+  /* ========= main do adm.js, funcionario.js ============= */
+  .adm_header{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    text-align: center;
+    & .sair{
+      text-decoration: none;
+      color: white;
+      border: solid silver 3px;
+      border-radius: 10px;
+    }
+
+  }
+  .main_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: aqua;
+    & select{
+      cursor: pointer;
+    }
+  }
+  .container{
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    margin: 0 auto;
+    /* max-width: 1200px; */
+    padding: 20px 150px 20px;
+  }
+  .novo_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: center;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 20px;
+    cursor: pointer;
+
+    & img{
+      max-width: 150px;
+      border-radius: 10px;
+      
+    }
+    & p {
+      cursor: text;
+    }
+    & .img_on{
+      border: solid green 3px;
+    }
+    & .img_off{
+      border: solid red 5px;
+    }
+    & button{
+      text-align: center;
+      border-radius: 4px;
+      background-color: gray;
+      cursor: pointer;
+    }
+    & .div_quantidade{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 5px;
+    }
+  }
+
+  /* =============== DETALHES.html ========= */
+  .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    padding: 100px;
+    & .card_detalhe{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      gap: 30px;
+      width: 1000px;
+      padding: 30px;
+      border-radius: 5px;
+      text-align: center;
+      & img{
+        border-radius: 5px;
+        border: solid silver 2px;
+      }
+      & button{
+        cursor: pointer;
+      }
+    }
+  }
+  /* ============= FOOTER ============ */
+  footer{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 50px;
+  }
+
+
+  /* =========== lista_produtos.html ======== */
+  .header_lista_produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }

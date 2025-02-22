@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionario</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header class="adm_header">
+        <p></p>
+        <h1>FUNCIONARIO</h1>
+        <a href="../templates/index.html" class="sair">SAIR</a>
+    </header>
+    <main>
+        <section class="main_1">
+            <p style="color: white;">Categorias:</p>
+            <select name="categoria" id="categoria">
+                <option value="todos">Todos</option>
+                <option value="Dispositivo de Segurança">Dispositivo</option>
+                <option value="Equipamento">Equipamento</option>
+                <option value="Veículo">Veículo</option>
+            </select>
+            <a style="color: white; text-decoration: none; border: solid white 1px; background-color: gray; border-radius: 10px; width: 60px; text-align: center;" href="./lista_produtos.html" target="_blank">LISTA</a>
+        </section>
+        <section id="container" class="container"></section>
+    </main>
+    <script src="../scripts/funcionario.js"></script>
+    <script src="../base/loadFooter.js"></script>
+</body>
+</html>

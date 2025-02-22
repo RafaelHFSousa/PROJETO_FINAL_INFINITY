@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem vindo adm</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header class="adm_header">
+        <p></p>
+        <h1>BEM VINDO ADMINISTRADOR</h1>
+        <!-- <button id="sair" class="sair">SAIR</button> -->
+         <a href="../templates/index.html" class="sair">SAIR</a>
+    </header>
+    <main>
+        <section class="main_1">
+            <p style="color: white;">Categorias:</p>
+            <select name="categoria" id="categoria">
+                <option value="todos">Todos</option>
+                <option value="Dispositivo de Segurança">Dispositivo</option>
+                <option value="Equipamento">Equipamento</option>
+                <option value="Veículo">Veículo</option>
+            </select>
+            <a target="_blank" style="color: white; text-decoration: none; border: solid silver 1px; border-radius: 10px; width: 100px; text-align: center;" href="./add_user.html">ADD USER</a>
+        </section>
+        <section id="container" class="container"></section>
+    </main>
+    <script type="module" src="../scripts/adm.js"></script>
+    <script src="../base/loadFooter.js"></script>
+</body>
+</html>
